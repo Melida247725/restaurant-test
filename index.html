@@ -1,16 +1,57 @@
 <!doctype html>
-<html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>La Tavernetta — Tradição Italiana</title><meta name="description" content="La Tavernetta: pizzas artesanais, massas e sobremesas. Cardápio digital em Santa Teresa, Espírito Santo.">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./style.css"></head>
-<body><header class="site-header"><a class="brand" href="#inicio"><span class="brand-symbol">✦</span> La Tavernetta</a><nav><a href="#historia">Nossa casa</a><a href="#cardapio">Cardápio</a><a href="#mesas">Mesas</a><a href="#contato">Contato</a></nav><a class="header-action" href="#cardapio">Ver cardápio <span>↗</span></a></header>
-<main><section id="inicio" class="hero"><div class="hero-overlay"></div><div class="hero-inner"><div class="eyebrow light"><span class="line"></span> SANTA TERESA · ESPÍRITO SANTO <span class="line"></span></div><h1>O sabor da <em>tradição</em><br>italiana.</h1><p>Da nossa cozinha para sua mesa. O encanto das cantinas italianas, a pizza de forno a lenha e encontros que merecem ser lembrados.</p><div class="hero-actions"><a class="btn btn-primary" href="#cardapio">Explorar o cardápio <span>↗</span></a><a class="btn btn-outline" href="#historia">Conheça nossa história</a></div></div><div class="hero-footer"><span>LA TAVERNETTA · SANTA TERESA</span><span>DESÇA PARA DESCOBRIR ↓</span></div></section>
-<section class="intro section-wrap" id="historia"><div class="intro-copy"><div class="eyebrow"><span class="line"></span> LA DOLCE VITA</div><h2>Uma mesa cheia de <em>histórias.</em></h2><p>Entre vigas de madeira, tijolos aparentes e a luz acolhedora da nossa casa, celebramos a boa comida e os momentos compartilhados.</p><p>Conheça nosso cardápio inspirado na culinária italiana, com pizzas de massa fina assadas no forno a lenha, massas e sobremesas para fechar a noite.</p><a class="text-link" href="#mesas">Escolha sua mesa <span>↗</span></a></div><div class="intro-photo"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85" alt="Ambiente acolhedor de restaurante, imagem ilustrativa" loading="lazy"><span>Ambiente ilustrativo</span></div></section>
-<section id="cardapio" class="menu-section"><div class="section-wrap"><div class="section-top"><div><div class="eyebrow"><span class="line"></span> FEITO COM CARINHO</div><h2>Nosso <em>cardápio.</em></h2></div><p>Sabores tradicionais, ingredientes escolhidos e aquele toque especial da casa.</p></div><div class="menu-alert">Preços transcritos de fotografias do cardápio, sujeitos a alteração. Confirme os valores com o restaurante. Fotos dos pratos meramente ilustrativas. Taxa de serviço de 10% opcional.</div><div class="category-tabs" id="tabs" role="tablist"></div><div class="food-grid" id="items"></div><div class="size-tip">Pizzas salgadas: <strong>Média R$ 70,00</strong> · <strong>Grande R$ 75,00</strong> — escolha o tamanho em cada produto.</div></div></section>
-<section id="mesas" class="tables-section"><div class="section-wrap table-content"><div><div class="eyebrow light"><span class="line"></span> DO SEU JEITO</div><h2>Seu lugar à <em>mesa.</em></h2><p>Selecione sua mesa para organizar o cardápio. A quantidade de mesas exibidas é demonstrativa.</p></div><div class="table-grid" id="table-grid"></div></div></section>
-<section id="contato" class="contact-section"><div class="section-wrap contact-grid"><div><div class="eyebrow"><span class="line"></span> VENHA NOS VISITAR</div><h2>Uma boa noite começa <em>aqui.</em></h2><p>Estamos no coração de Santa Teresa. Será um prazer receber você.</p></div><div class="contact-details"><h3>La Tavernetta</h3><p>Rua Pedro Gasparini, 158<br>Centro · Santa Teresa, ES · 29650-000</p><p>Contato: <a href="tel:+552732591708">(27) 3259-1708</a></p><p class="small-note">Endereço e contato obtidos de diretórios públicos; confirme antes da visita.</p><div class="contact-links"><a href="https://www.google.com/maps/search/?api=1&query=-19.9334097,-40.6013824" target="_blank" rel="noopener noreferrer">Como chegar ↗</a><a href="https://www.instagram.com/pizzaria_la_tavernetta/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></div></div></section></main>
-<div class="cart-bar" id="cart-bar" hidden><span id="cart-summary">Nenhum produto</span><button id="cart-button" type="button">Ver resumo <span>↗</span></button></div>
-<dialog id="cart-dialog"><div class="dialog-head"><h2>Seu <em>pedido.</em></h2><button id="close-cart" aria-label="Fechar resumo">✕</button></div><p class="small-note">Este é apenas um resumo para mostrar ao garçom. Não envia pedidos à cozinha.</p><div id="cart-lines"></div><div class="cart-total"><strong>Total estimado</strong><strong id="cart-total"></strong></div><p class="small-note">Preços a confirmar no restaurante. Taxa de serviço opcional não incluída.</p><button class="btn btn-primary full" id="done-cart">Voltar ao cardápio</button></dialog>
-<footer><span>✦ LA TAVERNETTA</span><span>Tradição italiana · Santa Teresa, ES</span><span>Cardápio demonstrativo · 2026</span></footer>
-<script src="./app.js" defer></script></body></html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#141a16">
+<meta name="description" content="AURÉA — experiência gastronômica autoral. Site conceitual de alta gastronomia, com menu degustação, pratos exclusivos e apresentação sofisticada.">
+<title>AURÉA | Atelier Gastronômico</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Italiana&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#menu">Ir para o cardápio</a>
+<header id="topo" class="header">
+  <a class="brand" href="#topo" aria-label="Aur éa, voltar ao início">AURÉA <span>ATELIER GASTRONÔMICO</span></a>
+  <nav class="nav" id="nav" aria-label="Navegação principal">
+    <a href="#conceito">O conceito</a><a href="#menu">Menu autoral</a><a href="#experiencia">A experiência</a><a href="#contato">Contato</a>
+  </nav>
+  <a class="header-cta" href="#reservas">RESERVAR <span aria-hidden="true">↗</span></a>
+  <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">☰</button>
+</header>
+<main>
+<section class="hero" aria-labelledby="hero-title">
+  <div class="hero-shade"></div>
+  <div class="hero-copy">
+    <p class="overline light"><span class="bar"></span> O EXTRAORDINÁRIO SE REVELA À MESA</p>
+    <h1 id="hero-title">Uma nova forma<br>de <em>sentir</em> o sabor.</h1>
+    <p class="hero-description">Ingredientes em sua melhor expressão. Técnica, memória e criatividade em uma experiência gastronômica inesquecível.</p>
+    <div class="hero-actions"><a class="button gold" href="#menu">DESCUBRA NOSSO MENU <span>↗</span></a><a class="button ghost" href="#conceito">CONHEÇA O AURÉA</a></div>
+  </div>
+  <div class="hero-bottom"><span>GASTRONOMIA AUTORAL · BRASIL</span><span>01 / 03 — ARTE EM CADA DETALHE</span><a href="#conceito">EXPLORE ↓</a></div>
+</section>
+<section id="conceito" class="manifest section">
+  <div class="manifest-tag"><span class="overline">01 — NOSSA FILOSOFIA</span><span class="vertical-line"></span><span>COZINHAR É CONTAR HISTÓRIAS</span></div>
+  <div class="manifest-copy"><p class="overline">O SABOR ENCONTRA A ARTE</p><h2>Não servimos apenas pratos.<br> Criamos <em>memórias.</em></h2><p>O AURÉA nasce do encontro entre ingredientes brasileiros, técnica contemporânea e o prazer de surpreender. Cada composição é pensada como uma obra: cores, texturas, aromas e uma história para descobrir.</p><div class="signature">A beleza está nos detalhes.<span>— O ESPÍRITO AURÉA</span></div></div>
+</section>
+<section class="image-break" aria-label="Culinária apresentada com requinte"><div class="image-break-label"><span>ATELIER</span><strong>Onde a criatividade<br>ganha sabor.</strong></div></section>
+<section id="menu" class="menu-section section">
+  <div class="section-heading"><div><p class="overline">02 — SELEÇÃO DO CHEF</p><h2>Uma viagem <em>sensorial.</em></h2></div><p>Pratos imaginados para uma experiência única. Combinações inesperadas, sabores intensos e apresentações que despertam os sentidos.</p></div>
+  <div class="menu-tabs" id="menu-tabs" role="tablist" aria-label="Categorias do menu"></div>
+  <div class="menu-grid" id="menu-grid" aria-live="polite"></div>
+  <p class="menu-notice">Portfólio demonstrativo: restaurante, pratos, valores e descrições são fictícios. Fotografias ilustrativas de banco de imagens, não retratam necessariamente as receitas descritas.</p>
+  <div class="menu-end"><span>UMA EXPERIÊNCIA A CADA ESCOLHA</span><a href="#reservas">VIVA O AURÉA <span>↗</span></a></div>
+</section>
+<section id="experiencia" class="experience">
+ <div class="experience-image"><img loading="lazy" src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1300&q=85" alt="Salão elegante de restaurante com iluminação acolhedora; fotografia ilustrativa"></div>
+ <div class="experience-copy"><p class="overline light">03 — MAIS QUE UM JANTAR</p><h2>O tempo desacelera.<br>O encanto <em>começa.</em></h2><p>Luz suave, detalhes cuidadosamente escolhidos e uma atmosfera criada para encontros especiais. No AURÉA, cada visita é imaginada como um ritual de descoberta.</p><div class="experience-metrics"><div><strong>07</strong><span>ETAPAS NA EXPERIÊNCIA</span></div><div><strong>∞</strong><span>POSSIBILIDADES DE SABOR</span></div></div><a class="button outline-gold" href="#reservas">PLANEJE SUA EXPERIÊNCIA ↗</a></div>
+</section>
+<section class="quote section"><p class="overline">A ESSÊNCIA DO AURÉA</p><blockquote>“A gastronomia é a arte de transformar ingredientes em lembranças.”</blockquote><span>UM CONCEITO. INFINITAS SENSAÇÕES.</span></section>
+<section id="reservas" class="reservations section"><div class="reservations-intro"><p class="overline">04 — VIVA ESTA EXPERIÊNCIA</p><h2>Uma noite para <em>recordar.</em></h2><p>Veja como poderia funcionar uma experiência de reservas com um design elegante e intuitivo.</p><p class="demo-warning">Esta é uma demonstração comercial. Nenhuma reserva real será realizada.</p></div>
+<form id="reservation-form" class="reservation-form"><label>DATA DESEJADA<input type="date" id="date" required></label><label>HORÁRIO<select id="time" required><option value="">Selecione um horário</option><option>19:00</option><option>19:30</option><option>20:00</option><option>20:30</option><option>21:00</option></select></label><label>CONVIDADOS<select id="guests" required><option>2 pessoas</option><option>1 pessoa</option><option>3 pessoas</option><option>4 pessoas</option><option>5 pessoas</option><option>6 pessoas</option></select></label><button class="button dark" type="submit">SIMULAR RESERVA <span>↗</span></button><div id="reservation-result" class="reservation-result" aria-live="polite"></div></form></section>
+<section id="contato" class="closing"><p class="overline light">UM CONVITE AO INESQUECÍVEL</p><h2>O melhor ainda está <em>por vir.</em></h2><p>AURÉA — uma identidade gastronômica fictícia criada como demonstração de site premium para restaurantes.</p><a href="#topo" class="button ghost">VOLTAR AO INÍCIO ↑</a></section>
+</main>
+<footer class="footer"><div class="footer-brand">AURÉA<span>ATELIER GASTRONÔMICO</span></div><div>CONCEITO FICTÍCIO · PORTFÓLIO DE DEMONSTRAÇÃO</div><div>© 2026 AURÉA · DESIGN DE EXPERIÊNCIA</div></footer>
+<script src="app.js" defer></script>
+</body></html>
